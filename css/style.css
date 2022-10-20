@@ -1,0 +1,240 @@
+/* font-family: 'Playfair Display', serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+    }
+    
+    header{
+    width: 90%;
+    margin:70px auto 110px;
+    overflow: hiden;
+    }
+    
+    .logo{
+    width: 20%;
+    float: left;
+    }
+    
+    .logo img{
+    
+    }
+    
+    .menu{
+    width: 70%;
+    float: right;
+    overflow: hidden;
+    }
+    
+    .menu ul{
+    list-style:none ;
+    float: right;
+    }
+    
+    .menu ul li{
+    float: left;
+    margin-left: 100px;
+    }
+    
+    .menu ul li a{
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: 'Playfair Display', serif;
+    }
+    
+    .banner{
+        width: 90%;
+        margin: auto;
+        overflow: hidden;
+    }
+    
+    .banner img{
+    width: 100%;
+    
+    }
+    
+    .photodairy{
+    width: 80%;
+    margin:70px auto;
+    }
+    
+    .photodairy h5{
+        color: #b4ad9e;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        font-weight: 400;
+        font-size: 15px;
+        }
+        
+    .photodairy h1{
+        color: #626262;
+        font-size: 40px;
+        margin-bottom: 20px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 400;
+        }
+    .photodairy p{
+            color: #626262;
+            font-size: 15px;
+            margin-bottom: 20px;
+            font-family: 'Playfair Display', serif;
+            }
+            
+         .photodairy a{
+            color:#b4ad9e ;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: 400;
+            } 
+        
+   .lifestyle{
+     width: 80%;
+     margin: 70px auto;
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+   }
+   .item{
+   width: 47%;
+   margin-bottom: 50px;
+   }
+   .item img{
+ width: 100%;
+   }
+
+   .item a{
+    color: #b4ad9e;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+    
+   } 
+   .item h1{
+    color: #626262;
+    font-size: 30px;
+    margin: 20px,0;
+    text-transform: capitalize;
+    font-family: 'Playfair Display', serif;
+    display: block;
+    margin: 15px 0;
+} 
+.item p{
+    color: #626262;
+    font-size: 15px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}       
+     
+
+.singup{
+background-color:#f0f0f0;
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 100px;
+}
+.singup_content{width: 400px;position: relative;}
+
+.singup_content h1{
+    color: #626262;
+        font-size: 30px;
+        margin: 20px,0;
+        text-transform: capitalize;
+        margin-bottom: 80px;
+        font-family: 'Playfair Display', serif;
+}
+.singup_content input{
+border:none;
+background: no-repeat;
+border-bottom: 1px solid;
+width: 100%;
+padding: 6px 0px 10px 0px;
+font-size: 15px;
+font-family: 'Playfair Display', serif;
+}
+
+.singup_content input:focus{
+   outline: none; 
+}
+    
+.button{
+height: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: 'Playfair Display', serif;
+} 
+
+.button button{
+padding: 20px 30px;
+background:transparent;
+border: none;
+border: 1px solid #000;
+font-size: 18px;
+} 
+footer{
+background: #f0f0f0;
+padding: 30px 0px;
+} 
+.footer_wrapper{
+width: 80%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+}
+.term{
+width: 30%;
+
+}
+.term ul{
+list-style: none;
+display: flex;
+}
+.term ul li{
+margin-right: 15px;
+}
+.term ul li a{
+text-decoration: none;
+color: #000;
+text-transform: capitalize;
+font-family: 'Playfair Display', serif;
+}
+.socail_icon{
+width: 30%;
+
+}
+.socail_icon ul{
+list-style: none;
+display: flex;
+justify-content: end;
+}
+.socail_icon ul li{
+
+}  
+    
+.socail_icon ul li a{
+text-decoration: none;
+margin-left: 15px;
+color: #000;
+font-family: 'Playfair Display', serif;
+}   
+
+.sand{
+
+position: absolute;
+
+bottom: 0;
+
+right: 0;
+
+}   
+    
+    
+    
+    
+    
